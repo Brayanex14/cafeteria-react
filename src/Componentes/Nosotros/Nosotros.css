@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+/* Nosotros.css */
+/* Contenedor principal */
+.nosotros-container {
+  display: grid;
+  grid-template-rows: auto 1fr; /* Fila 1: banner, Fila 2: contenido */
+}
+
+/* Sección del banner (relativo para contener texto absoluto) */
+.banner-section {
+  position: relative;
+  height: 400px; /* Altura fija (ajusta según necesidad) */
+}
+
+/* Imagen del banner */
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cubre el espacio sin distorsión */
+}
+
+/* Texto superpuesto CENTRADO */
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+/* Contenido adicional (ahora fluye naturalmente después del banner) */
+.contenido-adicional {
+  padding: 2rem;
+  margin-top: 0; /* Elimina márgenes conflictivos */
+  background-color: #f9f5f0 !important;
+}
+.contenido-adicional p,
+h3,
+h4 {
+  font-size: large;
+}
+.section-title {
+  font-family: "Montserrat", sans-serif; /* Fuente moderna */
+  font-weight: 700; /* Grosor bold */
+  font-size: 3rem; /* Tamaño grande */
+  letter-spacing: 3px; /* Espaciado entre letras */
+  text-transform: uppercase; /* Forzar mayúsculas */
+  color: #white; /* Color oscuro */
+  margin-bottom: 1.5rem;
+  line-height: 1.2; /* Reduce altura vertical */
+}
+
+/* Subtítulo */
+.section-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; /* Grosor normal */
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6f4e37; /* Color café para contraste */
+  line-height: 1.3;
+  position: relative;
+  display: inline-block;
+}
+
+/* Línea decorativa bajo el subtítulo (opcional) */
+.section-subtitle::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background: #6f4e37;
+  margin: 0.5rem auto 0;
+}
+/* Estilos generales */
+.contenido-adicional {
+  padding: 3rem 0;
+  background-color: #f8f9fa; /* Fondo claro */
+  font-family: "Poppins", sans-serif;
+}
+
+.section-header {
+  color: #6f4e37; /* Color café */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.section-text {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Tarjetas */
+.custom-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  padding: 2rem;
+}
+
+.value-card {
+  border-left: 4px solid #6f4e37; /* Borde lateral café */
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+.value-title {
+  color: #6f4e37;
+  font-weight: 600;
+}
+
+.value-text {
+  color: #555;
+}
+.m-v {
+  gap: 3rem;
+}
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-subtitle {
+    font-size: 1.2rem;
+  }
+  .contenido-adicional p,
+  h3,
+  h4 {
+    font-size: small;
+  }
+}

@@ -1,0 +1,66 @@
+.compras-content {
+  max-width: 700px; /* Ancho máximo del formulario */
+  margin: 2rem auto; /* Centrado */
+  padding: 2rem;
+  background-color: #f9f5f0;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+}
+.compras-content h2 {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+.form-text {
+  font-size: medium;
+}
+.tab-container {
+  justify-content: center !important;
+  column-gap: 2rem;
+}
+.tab-container .nav-link {
+  color: black !important; /* Café */
+  padding: 0.5rem 4rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border-color: black !important;
+  cursor: pointer;
+  justify-content: center !important;
+}
+.tab-container .nav-link.active {
+  background-color: #28242c;
+  color: white !important;
+}
+.tab-container .nav-link:hover,
+.tab-container .nav-link:focus {
+  background-color: #28242c;
+  color: white !important;
+  /*background-color: white !important;*/
+}
+@media (max-width: 768px) {
+  .compras-content {
+    font-size: small;
+  }
+  .compras-content h2 {
+    font-size: 2.7rem;
+  }
+  .form-text {
+    font-size: small;
+  }
+}
+
+@media (max-width: 576px) {
+  .compras-content {
+    font-size: smaller;
+  }
+  .form-text {
+    font-size: smaller;
+  }
+  .compras-content h2 {
+    font-size: 2rem;
+  }
+  #correo-text {
+    font-size: 1rem;
+  }
+}

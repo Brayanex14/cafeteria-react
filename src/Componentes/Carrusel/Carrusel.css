@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+.carousel-caption {
+  top: 50%;
+  left: 10%;
+  bottom: auto;
+  transform: none;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+.carousel-caption p {
+  color: #c7a17a;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.carousel-caption h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.carousel-caption .bt-carrusel {
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #c7a17a;
+  display: inline-block;
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  border-radius: 3rem;
+  font-weight: bolder;
+  font-size: 12px;
+  line-height: 1.2;
+  font-family: "Poppins", sans-serif !important;
+}
+.carousel-caption .bt-carrusel:hover {
+  transform: scale(1.1);
+  transition: all 0.35s ease-in-out;
+}
+/* ********************************** */
+/*       MEDIA QUERIES -- 768px       */
+/* ********************************** */
+@media (max-width: 768px) {
+  .carousel-caption p {
+    font-size: 1.4rem;
+  }
+  .carousel-caption .bt-carrusel {
+    font-size: 10px;
+  }
+  .carousel-caption h3 {
+    font-size: 2.8rem;
+  }
+}
+
+/* ********************************** */
+/*       MEDIA QUERIES -- 468px       */
+/* ********************************** */
+@media (max-width: 468px) {
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+  .carousel-caption .bt-carrusel {
+    font-size: 8px;
+  }
+  .carousel-caption h3 {
+    font-size: 2.6rem;
+  }
+}

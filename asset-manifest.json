@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/tu-repositorio/static/css/main.8a53b6e4.css",
-    "main.js": "/tu-repositorio/static/js/main.f0880120.js",
-    "static/media/log-in.png": "/tu-repositorio/static/media/log-in.2efefbad76c6d0687a95.png",
-    "static/media/nostros-baner3.jpg": "/tu-repositorio/static/media/nostros-baner3.0b4d913d52d3eaaa1fbd.jpg",
-    "static/media/banner2.jpg": "/tu-repositorio/static/media/banner2.33601ed3e45f493f7528.jpg",
-    "static/media/banner.jpg": "/tu-repositorio/static/media/banner.e57852482d8e7836618b.jpg",
-    "static/media/postre-dona.jpg": "/tu-repositorio/static/media/postre-dona.be086e996c64f6d4a0ff.jpg",
-    "static/media/postre-chocolate.jpg": "/tu-repositorio/static/media/postre-chocolate.121113102c2f51bf22de.jpg",
-    "static/media/postre-bizcocho.jpg": "/tu-repositorio/static/media/postre-bizcocho.e26f08c8f89a5affdea6.jpg",
-    "static/media/cafe-tradicional.jpg": "/tu-repositorio/static/media/cafe-tradicional.50a8540fbe931e33cd35.jpg",
-    "static/media/postre-tiramisu.jpg": "/tu-repositorio/static/media/postre-tiramisu.3d850c13fe203981e5ec.jpg",
-    "static/media/postre-piedelimon.jpg": "/tu-repositorio/static/media/postre-piedelimon.f19f0c54ef42d2d2c835.jpg",
-    "index.html": "/tu-repositorio/index.html",
-    "main.8a53b6e4.css.map": "/tu-repositorio/static/css/main.8a53b6e4.css.map",
-    "main.f0880120.js.map": "/tu-repositorio/static/js/main.f0880120.js.map"
+    "main.css": "/cafeteria-react/static/css/main.8a53b6e4.css",
+    "main.js": "/cafeteria-react/static/js/main.96f5ac37.js",
+    "static/media/log-in.png": "/cafeteria-react/static/media/log-in.2efefbad76c6d0687a95.png",
+    "static/media/nostros-baner3.jpg": "/cafeteria-react/static/media/nostros-baner3.0b4d913d52d3eaaa1fbd.jpg",
+    "static/media/banner2.jpg": "/cafeteria-react/static/media/banner2.33601ed3e45f493f7528.jpg",
+    "static/media/banner.jpg": "/cafeteria-react/static/media/banner.e57852482d8e7836618b.jpg",
+    "static/media/postre-dona.jpg": "/cafeteria-react/static/media/postre-dona.be086e996c64f6d4a0ff.jpg",
+    "static/media/postre-chocolate.jpg": "/cafeteria-react/static/media/postre-chocolate.121113102c2f51bf22de.jpg",
+    "static/media/postre-bizcocho.jpg": "/cafeteria-react/static/media/postre-bizcocho.e26f08c8f89a5affdea6.jpg",
+    "static/media/cafe-tradicional.jpg": "/cafeteria-react/static/media/cafe-tradicional.50a8540fbe931e33cd35.jpg",
+    "static/media/postre-tiramisu.jpg": "/cafeteria-react/static/media/postre-tiramisu.3d850c13fe203981e5ec.jpg",
+    "static/media/postre-piedelimon.jpg": "/cafeteria-react/static/media/postre-piedelimon.f19f0c54ef42d2d2c835.jpg",
+    "index.html": "/cafeteria-react/index.html",
+    "main.8a53b6e4.css.map": "/cafeteria-react/static/css/main.8a53b6e4.css.map",
+    "main.96f5ac37.js.map": "/cafeteria-react/static/js/main.96f5ac37.js.map"
   },
   "entrypoints": [
     "static/css/main.8a53b6e4.css",
-    "static/js/main.f0880120.js"
+    "static/js/main.96f5ac37.js"
   ]
 }

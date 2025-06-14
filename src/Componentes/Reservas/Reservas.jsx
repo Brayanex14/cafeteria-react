@@ -70,7 +70,7 @@ const Reservas = () => {
             className="caja-form"
             as="textarea"
             rows={3}
-            placeholder="Notas, Preferencias..."
+            placeholder="Notas, Preferencias y mas..."
           />
         </Form.Group>
 

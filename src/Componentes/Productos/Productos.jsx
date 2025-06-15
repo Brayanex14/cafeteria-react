@@ -53,7 +53,7 @@ const Products = ({ agregarAlCarrito2 }) => {
       id: 5,
       name: "Cafe Liqueurs",
       image: coffe5,
-      stars: 3,
+      stars: 2,
       price: 15.99,
       discount: "10%",
       oldPrice: 16.99,

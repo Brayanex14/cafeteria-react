@@ -18,11 +18,11 @@ const Login = () => {
           </div>
 
           <Form className="login-form">
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="formBasic">
               <Form.Label className="label-left">
-                Direccion de correo electronico
+                Nombre de Usuario
               </Form.Label>
-              <Form.Control type="email" placeholder="Ingrese su correo" />
+              <Form.Control type="user" placeholder="Ingrese su nombre de usuario" />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">

@@ -30,14 +30,24 @@ const Compras = ({ carrito2 = [] }) => {
             className="tarjeta-boton"
           >
             <Container>
-              <Form.Group className="mb-3" controlId="formNombreTarjeta">
-                <Form.Label>Nombre en la tarjeta:</Form.Label>
-                <Form.Control
-                  className="form-text"
-                  type="text"
-                  placeholder="Nombre completo"
-                />
-              </Form.Group>
+              <Row xs={1} sm={2} md={2} lg={2} className="mb-3">
+                <Col>
+                  <Form.Label>Nombre(s)</Form.Label>
+                  <Form.Control
+                    className="form-text"
+                    type="text"
+                    placeholder="Nombres"
+                  />
+                </Col>
+                <Col>
+                  <Form.Label>Apellido(s)</Form.Label>
+                  <Form.Control
+                    className="form-text"
+                    type="text"
+                    placeholder="Apellidos"
+                  />
+                </Col>
+              </Row>
 
               <Form.Group className="mb-3" controlId="formNumeroTarjeta">
                 <Form.Label>Número de tarjeta:</Form.Label>

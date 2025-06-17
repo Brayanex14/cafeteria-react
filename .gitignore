@@ -10,7 +10,8 @@
 
 # Producción
 /frontend/build
-
+/frontend/.env
+/frontend/.env.*
 # Archivos ocultos del sistema
 .DS_Store
 
@@ -21,20 +22,47 @@
 /frontend/.env.test.local
 /frontend/.env.production.local
 
+# Archivos de lock (según uses npm o yarn)
+frontend/package-lock.json
+frontend/yarn.lock
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# === BACKEND ===
-
-# Dependencias de backend (si usas Node.js o similar)
+# === BACKEND (Laravel) ===
+/backend/vendor
 /backend/node_modules
+/backend/storage/*.key
+/backend/storage/app/public
+/backend/storage/debugbar
+/backend/bootstrap/cache/*.php
 
-# Archivos de entorno backend
+# Laravel environment files
 /backend/.env
-/backend/.env.local
-/backend/.env.development.local
-/backend/.env.test.local
-/backend/.env.production.local
+/backend/.env.*
 
+# Laravel log files
+/backend/storage/logs/*.log
+
+# Laravel IDE helper files (si usas barryvdh/laravel-ide-helper)
+.phpstorm.meta.php
+/_ide_helper.php
+/_ide_helper_models.php
+
+# === PHP Composer ===
+/backend/composer.lock
+/backend/composer.phar
+
+# === IDEs / Editores ===
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# === SISTEMA OPERATIVO ===
+*.swp
+*.bak
+*.tmp
+*.temp

@@ -17,13 +17,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <script>
-      var path = window.location.search;
-      if (path) {
-        var redirect = new URLSearchParams(path).get('path');
-        if (redirect) window.history.replaceState(null, null, redirect);
-      }
-    </script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.

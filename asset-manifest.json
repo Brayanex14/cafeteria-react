@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cafeteria-react/static/css/main.8a53b6e4.css",
-    "main.js": "/cafeteria-react/static/js/main.1f7c1af9.js",
+    "main.js": "/cafeteria-react/static/js/main.da479eae.js",
     "static/media/log-in.png": "/cafeteria-react/static/media/log-in.2efefbad76c6d0687a95.png",
     "static/media/nostros-baner3.jpg": "/cafeteria-react/static/media/nostros-baner3.0b4d913d52d3eaaa1fbd.jpg",
     "static/media/banner2.jpg": "/cafeteria-react/static/media/banner2.33601ed3e45f493f7528.jpg",
@@ -14,10 +14,10 @@
     "static/media/postre-piedelimon.jpg": "/cafeteria-react/static/media/postre-piedelimon.f19f0c54ef42d2d2c835.jpg",
     "index.html": "/cafeteria-react/index.html",
     "main.8a53b6e4.css.map": "/cafeteria-react/static/css/main.8a53b6e4.css.map",
-    "main.1f7c1af9.js.map": "/cafeteria-react/static/js/main.1f7c1af9.js.map"
+    "main.da479eae.js.map": "/cafeteria-react/static/js/main.da479eae.js.map"
   },
   "entrypoints": [
     "static/css/main.8a53b6e4.css",
-    "static/js/main.1f7c1af9.js"
+    "static/js/main.da479eae.js"
   ]
 }

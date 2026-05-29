@@ -1,0 +1,78 @@
+.reservas-container {
+  max-width: 700px; /* Ancho máximo del formulario */
+  margin: 2rem auto; /* Centrado */
+  padding: 2rem;
+  background-color: #f9f5f0;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+}
+.reservas-container h2 {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+.reservas-form {
+  background-color: #f9f5f0;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+/* Estilo para el botón */
+.btn-primary {
+  background-color: #6f4e37; /* Color café típico de cafetería */
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #5a3d2a;
+}
+.reservas-form button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  font-weight: 600;
+  max-width: 180px;
+}
+.reservas-form button:hover {
+  background-color: #c7a17a;
+}
+.caja-form {
+  border-radius: 1.2rem;
+  border-width: 0.4cap;
+  border-color: #c7a17a;
+  font-size: medium;
+}
+.caja-form:focus {
+  border-color: black;
+  box-shadow: none !important;
+}
+@media (max-width: 768px) {
+  .reservas-container {
+    font-size: small;
+  }
+  .reservas-container h2 {
+    font-size: 2.7rem;
+  }
+  .caja-form {
+    font-size: small;
+  }
+}
+
+@media (max-width: 576px) {
+  .reservas-container {
+    font-size: smaller;
+  }
+  .caja-form {
+    font-size: smaller;
+  }
+  .reservas-container h2 {
+    font-size: 2rem;
+  }
+}

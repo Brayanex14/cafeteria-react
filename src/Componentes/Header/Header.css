@@ -1,0 +1,128 @@
+/* ********************************** */
+/*               HEADER               */
+/* ********************************** */
+.icon-header {
+  font-size: 35px;
+}
+.container-hero {
+  background-color: #f9f5f0;
+  height: 7rem;
+  display: flex;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.customer-support {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.content-customer-support {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.container-logo i {
+  font-size: 3rem;
+}
+
+.container-logo h1 a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 700; /* Negrita */
+  text-transform: uppercase; /* Opcional: todo en mayúsculas */
+  letter-spacing: -1px;
+}
+
+.container-user {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.container-user i {
+  font-size: 3rem;
+  color: #c7a17a;
+  padding-right: 0.5rem;
+}
+.container-user i:hover {
+  color: black;
+  transition: all 0.25s ease-in-out;
+}
+
+.container-user .fa-basket-shopping {
+  font-size: 3rem;
+  color: var(--primary-color);
+  padding-left: 1rem;
+}
+
+.content-shopping-cart {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+/* ********************************** */
+/*       MEDIA QUERIES -- 768px       */
+/* ********************************** */
+@media (max-width: 768px) {
+  .container-hero {
+    height: 5rem;
+  }
+  .container-user i {
+    font-size: 2.5rem;
+  }
+  .icon-header {
+    font-size: 28px;
+  }
+  .container-hero {
+    font-size: 55%;
+  }
+
+  .hero {
+    padding: 2rem;
+  }
+
+  .customer-support {
+    display: none;
+  }
+
+  .content-shopping-cart {
+    display: none;
+  }
+  .container-logo h1 a {
+    font-size: 2.5rem;
+  }
+}
+
+/* ********************************** */
+/*       MEDIA QUERIES -- 468px       */
+/* ********************************** */
+@media (max-width: 468px) {
+  .container-user i {
+    font-size: 2rem;
+  }
+  .container-hero {
+    font-size: 42.5%;
+  }
+
+  .icon-header {
+    font-size: 20px;
+  }
+  .container-logo h1 a {
+    font-size: 1.8rem;
+  }
+}

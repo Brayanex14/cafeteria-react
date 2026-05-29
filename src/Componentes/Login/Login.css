@@ -1,0 +1,120 @@
+.login-content {
+  position: relative;
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+}
+
+.image-login {
+  width: 100vw; /* Ocupar todo el ancho de la ventana */
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(0.9) contrast(0.5);
+}
+
+.hero-figure {
+  height: 100%;
+  margin: 0;
+}
+
+.figure-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4); /* Overlay para mejor legibilidad */
+}
+.figure-caption h1 {
+  font-size: 4rem !important;
+  font-weight: bolder;
+}
+.figure-caption span {
+  font-size: 2rem;
+}
+.figure-caption a {
+  font-size: 2rem;
+}
+.figure-caption a:hover {
+  color: #c7a17a;
+}
+.login-form {
+  width: 100%;
+  max-width: 400px; /* Ancho máximo del formulario */
+  background-color: transparent;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.login-form .form-control {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: small;
+}
+.label-left {
+  text-align: left !important;
+  display: block;
+}
+.check .form-check-input:checked {
+  background-color: #c7a17a !important;
+  border-color: #c7a17a !important;
+  box-shadow: none !important;
+}
+
+.login-form button {
+  margin-top: 4rem;
+  font-size: 1.7rem !important;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 1.3rem;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  font-weight: 600;
+  max-width: 280px;
+}
+.login-form button:hover {
+  background-color: #c7a17a;
+}
+
+@media (max-width: 768px) {
+  .login-form {
+    padding: 20px;
+    max-width: 90%;
+  }
+  .figure-caption h1 {
+    font-size: 3rem !important;
+  }
+  .figure-caption span {
+    font-size: 1.8rem;
+  }
+  .figure-caption a {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 468px) {
+  .login-form {
+    padding: 20px;
+    max-width: 80%;
+  }
+  .figure-caption h1 {
+    font-size: 2.5rem !important;
+  }
+  .figure-caption span {
+    font-size: 1.3rem;
+  }
+  .figure-caption a {
+    font-size: 1.3rem;
+  }
+  .login-content {
+    font-size: small;
+  }
+}
